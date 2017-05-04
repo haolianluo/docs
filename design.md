@@ -13,15 +13,6 @@
 ## 准备工作 
 1.  在用户中心由管理员分配应用ID和应用密钥
 
-以下是测试账号:
-
-| #  |应用名称   |  应用ID |  应用密钥 | 授权类型  |
-|:-:|---|---|---|---|
-|  1 | 联络推送  |  4f5d7cb8-a8f2-33ab-95b1-e8ddca748a35 |  AxPwnCn3HNwHyXNtUuCjtLbdxRoRV2ha | authorization_code  |
-| 2  | 联络忻风  |  d21f5491-3cfd-3fdc-b922-f4cabd658c82 |  Mdg9YBjGoYXDOVQrVcd2ELr59y0u6Rt1 | client_credentials password  |
-| 3  |  联络智能 | fa21b49c-aa3b-37c3-852f-51b41cd6bc25  | a1BvrfQoOVKO7cLwtskRJrfA-6Cm7lCo  |  client_credentials password |
-
-
 ## APP端认证流程
 
 * 1. 首先通过**客户端模式**（client_credentials） 授权方式获取**访问令牌**（access_token）
