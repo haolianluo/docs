@@ -10,7 +10,7 @@
 * 用户信息安全,  风险管控, 信息管理统一由用户中心处理, 其他项目无需重复开发, 降低开发成本
 * 还可以绑定QQ, 微信, 微博等社交绑定, 进行快速登录
 
-## Web如何接入用户中心
+## 网站应用如何接入用户中心
 
 ### 注册
 
@@ -20,9 +20,9 @@
 
 ### 登录
 
-* 1. 在登录(site/login)处, 自动跳转到OAuth2登录地址, 如`site/auth`
-* 2. 请求授权码(authorization_code), 见  [授权码模式](design)
-* 3. 通过拿到的授权码, 获取访问令牌(access_token) 见  [授权码模式](design)
+* 1. 用户点击登录, 跳转到**用户中心**的登录地址, `/oauth2/auth`
+* 2. 请求授权码(authorization_code), 见  [授权码模式](code-pattern)
+* 3. 通过拿到的授权码, 获取访问令牌(access_token) 见  [授权码模式](code-pattern)
 * 4. 通过令牌访问用户信息, 获取union_id
 * 5. 通过union_id判断用户是否存在, 若用户存在记录, 则自动登录; 若不存在, 则执行注册+登录
 *  6. union_id需要存储在服务端, 以便知道用户是否登录过, 如使用`user_auth`表存储, 表结构
@@ -34,9 +34,16 @@
 | source  |  varchar(255) |  来源  | lianluo  |
 | source_id  |  varchar(255) | union_id  | AQAe4DrBlhnISCKKfNB791OPI8lBf-c-| 
 
-## APP如何接入用户中心
+### 针对PHP中 Yii2框架的认证组件
 
-APP端访问用户中心的接口, 均需要使用访问令牌进行认证, 见[客户端模式](design)
+* 使用composer 安装: `composer require zacksleo/yii2-authclient` 
+* 更多内容见 https://packagist.org/packages/zacksleo/yii2-authclient
+
+## 移动应用如何接入用户中心
+
+优先建议使用**用户中心SDK**进行接入, 如果不使用SDK, 而是自行实现, 请往下看
+
+APP端访问用户中心的接口, 均需要使用访问令牌进行认证, 见[客户端模式](client-pattern)
 
 获取到访问令牌后, 所有接口URL中应该携带access_token字段, 用户中心会自动进行认证
 
@@ -55,11 +62,5 @@ APP端访问用户中心的接口, 均需要使用访问令牌进行认证, 见[
 
 * 1.  获取手机验证码
 * 2. 调用重置密码接口
-
-### 针对PHP中 Yii2框架的认证组件
-
-* 使用composer 安装: `composer require zacksleo/yii2-authclient` 
- * 更多内容见 https://packagist.org/packages/zacksleo/yii2-authclient
-
 
 接口详细见[接口文档](api)
