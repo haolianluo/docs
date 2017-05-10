@@ -41,7 +41,6 @@
 
 ## 环境
 
-* 用户中心预演环境  https://mops-dev-usercenter.lianluo.com:882/
 * 用户中心正式环境  https://mops-ucenter.lianluo.com
 
 
