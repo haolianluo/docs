@@ -54,8 +54,8 @@ https://demo.com/site/auth?authclient=lianluos&code=a8ca2ab5f6ff657bfea2dd9f97be
           "union_id": "AQAe4DrBlhnISCKKfNB791OPI8lBf-c-",
           "avatar": null,
           "username": "zacksleo",
-          "email": "zacksleo@gmail.com",
-          "phone": "17002108009"
+          "email": "username@gmail.com",
+          "phone": "17502208309"
         }
 
 
