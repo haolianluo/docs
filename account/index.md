@@ -2,15 +2,7 @@
 
 ## 简介
 
-  > 为其他方应用或网站提供统一注册和认证的开放平台
-
-## 主要特点
-
-* 统一注册和认证, 用户信息放在一处托管
-* 接口授权遵循OAuth2.0规范
-* 接口实现遵循REST规范
-* 使用UinonId作为统一的用户ID
-
+  > 为其他方应用或网站提供统一注册和认证的开放平台， 遵循REST和OAuth2.0规范
 
 ## 文档
 
@@ -18,9 +10,6 @@
 
 * [快速开始](get-started)
 
-### 移动应用接入
-
-* [扫码登录](qrcode-login)
 
 ### 网站应用接入
 
@@ -34,7 +23,6 @@
 ### 其他
 
 * [设计思想](design)
-* [使用用户中心的Token验证接口](authentication)
 * [两种Token的说明](token)
 * [常见问题](qa)
 
@@ -45,7 +33,7 @@
 
 ## 技术支持:
 
-  + QQ群 641981380 [联络ID技术支持]
+  + QQ群 641981380 
 
     ![](http://ww1.sinaimg.cn/large/675eb504gy1ffngjw0c1uj206d086t95.jpg)
 
@@ -53,5 +41,7 @@
 
     ![](http://ww1.sinaimg.cn/large/675eb504gy1ffngy2xxozj206d08umyg.jpg)
 
-  + 联系邮箱:  zacksleo@gmail.com
+  + 联系邮箱:  
+  
+    zacksleo@gmail.com
 
