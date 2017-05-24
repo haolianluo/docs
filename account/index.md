@@ -38,8 +38,8 @@
     ![](http://ww1.sinaimg.cn/large/675eb504gy1ffngjw0c1uj206d086t95.jpg)
 
   + 微信群 
-
-    ![](http://ww1.sinaimg.cn/large/675eb504gy1ffngy2xxozj206d08umyg.jpg)
+    
+    ![](http://ww1.sinaimg.cn/large/675eb504ly1ffwja9ubczj206d08vq3g.jpg)
 
   + 联系邮箱:  
   
