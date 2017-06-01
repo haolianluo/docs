@@ -14,7 +14,8 @@
 
 * 微信群
 
-![](http://ww1.sinaimg.cn/large/675eb504ly1ffo408lfzvj206c08twfr.jpg)
+![](http://ww1.sinaimg.cn/large/675eb504ly1ffwjgrr0bxj206c08ut98.jpg)
+
 
 * 邮箱
 
