@@ -1,15 +1,13 @@
 FORMAT: 1A
 HOST: https://mops-api.lianluo.com/account/v1/
 
-[[_TOC_]]
-
 ## 用户 [/users]
 
 
 ### 获取用户信息 [GET]
 + Header 
-    + Authorization Bearer {userToken} - 用户访问令牌, 通过授权码模式或密码模式获得
-    + Content-Type application/json
+    + Authorization: Bearer {userToken} - 用户访问令牌, 通过授权码模式或密码模式获得
+    + Content-Type: application/json
 + Attributes
     + expand (string, optional) - 查询字段,可选, 如果添加了expand=profile, 则会给出profile的信息
 + Request (application/json)
