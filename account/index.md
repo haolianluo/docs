@@ -39,7 +39,7 @@
 
   + 微信群 
     
-    ![](http://ww1.sinaimg.cn/large/675eb504ly1ffwja9ubczj206d08vq3g.jpg)
+    ![](http://ww1.sinaimg.cn/large/675eb504gy1fg6ycapy7fj206d08vmxo.jpg)    
 
   + 联系邮箱:  
   
