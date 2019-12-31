@@ -19,4 +19,3 @@
 
 * 邮箱
 
-zacksleo@gmail.com
